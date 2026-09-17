@@ -51,7 +51,7 @@ export const PoliticalTrustSection: React.FC = () => {
           className="mt-8 text-center max-w-4xl mx-auto px-4"
         >
           <p className="text-lg sm:text-xl md:text-2xl text-sky-200/95 font-medium leading-relaxed italic tracking-wide">
-            &ldquo;Theo Thứ trưởng Bộ Ngoại giao Nguyễn Mạnh Cường, dấu ấn lớn nhất là sự tin cậy chính trị cấp cao và tình cảm gần gũi giữa hai dân tộc.&rdquo;
+            Theo Thứ trưởng Bộ Ngoại giao Nguyễn Mạnh Cường, dấu ấn lớn nhất là sự tin cậy chính trị cấp cao và tình cảm gần gũi giữa hai dân tộc.
           </p>
         </motion.div>
       </div>

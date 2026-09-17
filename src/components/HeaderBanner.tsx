@@ -116,7 +116,7 @@ export const HeaderBanner: React.FC = () => {
         className="max-w-3xl mx-auto w-full pt-4 sm:pt-6 px-4 text-center"
       >
         <p className="text-xs sm:text-sm md:text-base text-sky-100/90 leading-relaxed font-normal">
-          Chuyến thăm cấp Nhà nước từ ngày 14 đến 16-9-2026 theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân, hội tụ 3 dấu mốc đặc biệt, củng cố tin cậy chính trị, thắt chặt tình cảm giữa hai dân tộc và tạo động lực đưa quan hệ Đối tác Chiến lược toàn diện đi vào chiều sâu.
+          Chuyến thăm cấp Nhà nước tới Việt Nam của Nhà vua Thái Lan và Hoàng hậu từ ngày 14 đến 16-9-2026 theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân, hội tụ 3 dấu mốc đặc biệt, củng cố tin cậy chính trị, thắt chặt tình cảm giữa hai dân tộc và tạo động lực đưa quan hệ Đối tác Chiến lược toàn diện đi vào chiều sâu.
         </p>
       </motion.div>
 
