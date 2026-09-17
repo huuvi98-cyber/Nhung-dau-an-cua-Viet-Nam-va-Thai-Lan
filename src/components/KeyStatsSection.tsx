@@ -25,7 +25,7 @@ export const KeyStatsSection: React.FC = () => {
 
   return (
     <section id="stats-section" className="py-12 px-4 sm:px-6 lg:px-8 border-b border-sky-800/50 relative">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-[1500px] mx-auto">
         {/* Section Header */}
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-amber-200 tracking-tight uppercase drop-shadow-sm">
@@ -60,7 +60,7 @@ export const KeyStatsSection: React.FC = () => {
 
                 {/* Animated Stat Value */}
                 <div className="mb-2">
-                  <div className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight flex items-baseline">
+                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-white tracking-tight flex items-baseline flex-wrap">
                     <AnimatedCounter
                       end={stat.value}
                       decimals={stat.decimals ?? 0}

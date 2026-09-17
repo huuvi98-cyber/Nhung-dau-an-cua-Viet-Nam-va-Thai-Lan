@@ -47,10 +47,10 @@ export const AnimatedCounter: React.FC<AnimatedCounterProps> = ({
     : Math.round(count).toLocaleString('vi-VN');
 
   return (
-    <span className={className}>
-      {prefix}
-      {formattedValue}
-      {suffix ? ` ${suffix}` : ''}
+    <span className={`inline-flex items-baseline flex-wrap gap-x-1 ${className}`}>
+      {prefix && <span className="text-[0.85em] font-medium opacity-90">{prefix}</span>}
+      <span className="font-extrabold">{formattedValue}</span>
+      {suffix && <span className="text-[0.78em] font-semibold text-sky-200/95">{suffix}</span>}
     </span>
   );
 };

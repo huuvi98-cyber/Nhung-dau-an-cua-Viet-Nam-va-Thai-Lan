@@ -7,7 +7,7 @@ import { CooperationPillar } from '../types';
 export const CooperationPillarsSection: React.FC = () => {
   return (
     <section id="cooperation-pillars" className="py-12 px-4 sm:px-6 lg:px-8 border-b border-sky-800/50 relative">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-[1500px] mx-auto">
         {/* Section Header */}
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-amber-200 tracking-tight uppercase drop-shadow-sm">
@@ -28,7 +28,7 @@ export const CooperationPillarsSection: React.FC = () => {
                 className="rounded-2xl p-6 transition-all duration-300 relative border flex flex-col justify-between overflow-hidden bg-[#0a1e48]/85 hover:bg-[#0e275d]/60 border-sky-500/30 hover:border-sky-400 shadow-xl"
               >
                 <div>
-                  <h3 className="text-lg font-bold text-white mb-4">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-4 tracking-tight">
                     {pillar.title}
                   </h3>
 

@@ -77,7 +77,7 @@ export const STATS: StatItem[] = [
     id: "community",
     value: 100000,
     prefix: "Hơn ",
-    suffix: "người",
+    suffix: "người Việt Nam",
     decimals: 0,
     label: "Đang sinh sống, học tập, làm việc tại Thái Lan.",
     highlightText: "Gắn kết văn hóa và hướng về Tổ quốc",

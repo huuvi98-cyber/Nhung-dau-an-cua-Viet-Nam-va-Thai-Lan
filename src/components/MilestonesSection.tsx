@@ -9,14 +9,14 @@ export const MilestonesSection: React.FC = () => {
   return (
     <section id="milestones-section" className="py-10 px-4 sm:px-6 lg:px-8 border-b border-sky-800/50 relative">
       {/* Section Header */}
-      <div className="max-w-5xl mx-auto mb-8 text-center">
+      <div className="max-w-[1500px] mx-auto mb-8 text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-amber-200 tracking-tight uppercase drop-shadow-sm">
           3 Dấu Mốc <span className="text-yellow-100">Đặc Biệt</span>
         </h2>
       </div>
 
       {/* 3 Milestone Cards Grid */}
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
         {MILESTONES.map((item: Milestone, idx: number) => {
           const isSelected = selectedMilestone === item.id;
           return (

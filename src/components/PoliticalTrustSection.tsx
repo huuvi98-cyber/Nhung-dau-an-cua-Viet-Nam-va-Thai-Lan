@@ -6,7 +6,7 @@ import { Activity } from '../types';
 export const PoliticalTrustSection: React.FC = () => {
   return (
     <section id="activities-section" className="py-12 px-4 sm:px-6 lg:px-8 border-b border-sky-800/50 relative">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-[1500px] mx-auto">
         {/* Section Header */}
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-amber-200 tracking-normal leading-normal uppercase drop-shadow-sm">
@@ -34,7 +34,7 @@ export const PoliticalTrustSection: React.FC = () => {
                 <div className="w-9 h-9 rounded-xl bg-[#082259] border border-sky-400/30 flex items-center justify-center shrink-0 text-sky-200 font-extrabold text-sm sm:text-base shadow-sm">
                   {idx + 1}
                 </div>
-                <h3 className="text-base sm:text-lg font-bold text-[#082259] tracking-wide">
+                <h3 className="text-xs sm:text-sm font-bold text-[#082259] tracking-normal leading-snug">
                   {act.title}
                 </h3>
               </motion.div>
@@ -50,7 +50,7 @@ export const PoliticalTrustSection: React.FC = () => {
           transition={{ delay: 0.35, duration: 0.5 }}
           className="mt-8 text-center max-w-4xl mx-auto px-4"
         >
-          <p className="text-lg sm:text-xl md:text-2xl text-sky-200/95 font-medium leading-relaxed italic tracking-wide">
+          <p className="text-base sm:text-lg md:text-xl text-sky-200/95 font-medium leading-relaxed italic tracking-wide">
             Theo Thứ trưởng Bộ Ngoại giao Nguyễn Mạnh Cường, dấu ấn lớn nhất là sự tin cậy chính trị cấp cao và tình cảm gần gũi giữa hai dân tộc.
           </p>
         </motion.div>

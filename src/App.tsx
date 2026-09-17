@@ -11,7 +11,7 @@ export default function App() {
       <HeaderBanner />
 
       {/* Main Content Area */}
-      <main className="flex-1 w-full max-w-6xl mx-auto">
+      <main className="flex-1 w-full max-w-[1500px] mx-auto">
         <div className="space-y-0">
           <MilestonesSection />
           <KeyStatsSection />
