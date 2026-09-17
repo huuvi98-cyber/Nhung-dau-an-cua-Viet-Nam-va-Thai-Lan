@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Blue & Cyan Diplomatic Theme Accents */
+.bg-embossed-blue {
+  background-color: #0b1f48;
+  background-image: 
+    radial-gradient(circle at 50% 10%, rgba(30, 64, 175, 0.45) 0%, transparent 60%),
+    radial-gradient(circle at 10% 40%, rgba(14, 165, 233, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 90% 70%, rgba(37, 99, 235, 0.35) 0%, transparent 50%),
+    linear-gradient(180deg, #051438 0%, #0a2355 25%, #0b2763 50%, #071e4d 85%, #030f2b 100%);
+}
+
+.cyan-gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #bae6fd 40%, #38bdf8 80%, #7dd3fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding-top: 0.08em;
+  padding-bottom: 0.08em;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FEF08A 25%, #F59E0B 65%, #92400E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding-top: 0.15em;
+  padding-bottom: 0.08em;
+}
+
+.blue-glow {
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.25);
+}
+
+.blue-glow-lg {
+  box-shadow: 0 0 45px rgba(56, 189, 248, 0.35);
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: #0b1f48 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+

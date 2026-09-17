@@ -1,0 +1,6 @@
+{
+  "name": "Dấu Ấn Chuyến Thăm Việt Nam của Nhà Vua & Hoàng Hậu Thái Lan",
+  "description": "Infographic đồ họa động về chuyến thăm cấp Nhà nước của Nhà vua và Hoàng hậu Thái Lan tới Việt Nam (14-16/9/2026).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
