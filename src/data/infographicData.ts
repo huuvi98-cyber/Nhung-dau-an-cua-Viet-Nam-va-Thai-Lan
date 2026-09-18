@@ -108,7 +108,7 @@ export const ACTIVITIES: Activity[] = [
   {
     id: "act-3",
     timeframe: "Tưởng niệm",
-    title: "Viếng Lăng Chủ tịch Hồ Chí Minh; đặt vòng hoa tại Đài tưởng niệm các Anh hùng liệt sĩ trên đường Bắc Sơn, Hà Nội.",
+    title: "Vào lăng viếng Chủ tịch Hồ Chí Minh; đặt vòng hoa tại Đài tưởng niệm các Anh hùng liệt sĩ trên đường Bắc Sơn, Hà Nội.",
     role: "Lăng Chủ tịch Hồ Chí Minh & Đài tưởng niệm Bắc Sơn",
     category: "chinh-tri",
     description: "Tưởng nhớ công lao to lớn của Chủ tịch Hồ Chí Minh và các Anh hùng liệt sĩ đã hy sinh vì độc lập dân tộc.",
