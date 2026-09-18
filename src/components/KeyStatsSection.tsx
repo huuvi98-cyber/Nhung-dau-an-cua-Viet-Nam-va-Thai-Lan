@@ -60,7 +60,7 @@ export const KeyStatsSection: React.FC = () => {
 
                 {/* Animated Stat Value */}
                 <div className="mb-2">
-                  <div className="text-lg sm:text-xl lg:text-2xl font-bold text-white tracking-tight flex items-baseline flex-wrap">
+                  <div className="text-2xl sm:text-3xl lg:text-[34px] font-extrabold text-white tracking-tight flex items-baseline flex-wrap">
                     <AnimatedCounter
                       end={stat.value}
                       decimals={stat.decimals ?? 0}

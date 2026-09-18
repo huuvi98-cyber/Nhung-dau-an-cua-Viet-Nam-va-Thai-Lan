@@ -90,7 +90,7 @@ export const ACTIVITIES: Activity[] = [
   {
     id: "act-1",
     timeframe: "Cấp cao",
-    title: "Hội đàm với Tổng Bí thư, Chủ tịch nước Tô Lâm",
+    title: "Hội đàm với Tổng Bí thư, Chủ tịch nước Tô Lâm.",
     role: "Tổng Bí thư, Chủ tịch nước Tô Lâm",
     category: "chinh-tri",
     description: "Hội đàm trang trọng, trao đổi sâu rộng về định hướng chiến lược đưa quan hệ Đối tác Chiến lược toàn diện phát triển vững mạnh và hiệu quả.",
@@ -99,7 +99,7 @@ export const ACTIVITIES: Activity[] = [
   {
     id: "act-2",
     timeframe: "Cấp cao",
-    title: "Hội kiến Thủ tướng Lê Minh Hưng và Chủ tịch Quốc hội Trần Thanh Mẫn",
+    title: "Hội kiến Thủ tướng Lê Minh Hưng và Chủ tịch Quốc hội Trần Thanh Mẫn.",
     role: "Thủ tướng Lê Minh Hưng & Chủ tịch Quốc hội Trần Thanh Mẫn",
     category: "chinh-tri",
     description: "Thống nhất các giải pháp thực chất thúc đẩy trụ cột hợp tác kinh tế, thương mại, đầu tư, lập pháp và giao lưu nhân dân.",
@@ -107,17 +107,26 @@ export const ACTIVITIES: Activity[] = [
   },
   {
     id: "act-3",
+    timeframe: "Tưởng niệm",
+    title: "Viếng Lăng Chủ tịch Hồ Chí Minh; đặt vòng hoa tại Đài tưởng niệm các Anh hùng liệt sĩ trên đường Bắc Sơn, Hà Nội.",
+    role: "Lăng Chủ tịch Hồ Chí Minh & Đài tưởng niệm Bắc Sơn",
+    category: "chinh-tri",
+    description: "Tưởng nhớ công lao to lớn của Chủ tịch Hồ Chí Minh và các Anh hùng liệt sĩ đã hy sinh vì độc lập dân tộc.",
+    significance: "Thể hiện sự tôn kính sâu sắc và tình hữu nghị truyền thống lâu đời."
+  },
+  {
+    id: "act-4",
     timeframe: "Văn hóa - Tâm linh",
-    title: "Thăm chùa Quán Sứ",
+    title: "Thăm chùa Quán Sứ, dự Lễ cầu an.",
     role: "Trung ương Giáo hội Phật giáo Việt Nam",
     category: "van-hoa",
     description: "Viếng thăm ngôi cổ tự tiêu biểu của Phật giáo Việt Nam, tôn vinh nét tương đồng văn hóa và sự kết nối tâm linh sâu sắc giữa hai dân tộc theo đạo Phật.",
     significance: "Gắn kết văn hóa tâm linh và giá trị hòa bình hữu nghị."
   },
   {
-    id: "act-4",
+    id: "act-5",
     timeframe: "Giáo dục - Thế hệ trẻ",
-    title: "Thăm Trung tâm Ngôn ngữ - Văn hóa Thái Lan tại Trường Đại học Hà Nội",
+    title: "Thăm Trường Đại học Hà Nội và Trung tâm Ngôn ngữ - Văn hóa Thái Lan.",
     role: "Trường Đại học Hà Nội",
     category: "giao-duc",
     description: "Gặp gỡ giảng viên, sinh viên Việt Nam theo học tiếng Thái; động viên phong trào dạy và học ngôn ngữ, tăng cường hiểu biết song phương.",

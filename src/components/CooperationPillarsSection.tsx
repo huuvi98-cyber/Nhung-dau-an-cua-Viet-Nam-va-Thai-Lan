@@ -11,7 +11,7 @@ export const CooperationPillarsSection: React.FC = () => {
         {/* Section Header */}
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-amber-200 tracking-tight uppercase drop-shadow-sm">
-            Từ Chuyến Thăm Đến <span className="text-yellow-100">Hợp Tác Cụ Thể</span>
+            Mở Rộng Hợp Tác <span className="text-yellow-100">Trên Nhiều Lĩnh Vực</span>
           </h2>
         </div>
 

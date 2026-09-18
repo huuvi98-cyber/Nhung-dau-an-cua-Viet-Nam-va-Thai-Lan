@@ -46,12 +46,6 @@ export const HeaderBanner: React.FC = () => {
         {/* Ambient radial glow in center */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,rgba(56,189,248,0.18)_0%,transparent_65%)] pointer-events-none" />
 
-        {/* Corner Accents */}
-        <div className="absolute top-4 left-4 w-6 h-6 border-t-2 border-l-2 border-sky-400/60 pointer-events-none" />
-        <div className="absolute top-4 right-4 w-6 h-6 border-t-2 border-r-2 border-sky-400/60 pointer-events-none" />
-        <div className="absolute bottom-4 left-4 w-6 h-6 border-b-2 border-l-2 border-sky-400/60 pointer-events-none" />
-        <div className="absolute bottom-4 right-4 w-6 h-6 border-b-2 border-r-2 border-sky-400/60 pointer-events-none" />
-
         {/* Center: Flags + Main 3-Line Title with emphasis on "Những Dấu Ấn" */}
         <div className="relative z-10 text-center my-auto -translate-y-4 sm:-translate-y-7 md:-translate-y-9 py-2 flex flex-col items-center">
           {/* Cặp Quốc kỳ Việt Nam - Thái Lan đặt phía trên "Những Dấu Ấn" */}
@@ -116,7 +110,7 @@ export const HeaderBanner: React.FC = () => {
         className="max-w-[1000px] mx-auto w-full pt-4 sm:pt-6 px-4 text-center"
       >
         <p className="max-w-[1000px] mx-auto text-sm sm:text-[17px] md:text-[18.5px] text-sky-100/95 leading-relaxed font-normal">
-          Chuyến thăm cấp Nhà nước tới Việt Nam của Nhà vua Thái Lan và Hoàng hậu từ ngày 14 đến 16-9-2026 theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân, hội tụ 3 dấu mốc đặc biệt, củng cố tin cậy chính trị, thắt chặt tình cảm giữa hai dân tộc và tạo động lực đưa quan hệ Đối tác Chiến lược toàn diện đi vào chiều sâu.
+          Chuyến thăm cấp Nhà nước tới Việt Nam của Nhà vua Thái Lan và Hoàng hậu từ ngày 14 đến 16-9-2026, theo lời mời của Tổng Bí thư, Chủ tịch nước Tô Lâm và Phu nhân, góp phần củng cố tin cậy chính trị, thắt chặt tình cảm giữa hai dân tộc và tạo động lực đưa quan hệ Đối tác Chiến lược toàn diện đi vào chiều sâu.
         </p>
       </motion.div>
 
